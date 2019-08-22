@@ -1,0 +1,29 @@
+{
+  "name": "eslint-plugin-exati",
+  "version": "1.0.0",
+  "description": "Lint exati",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Guilherme Afonso Borchardt",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "^1.2.0",
+    "vue-eslint-parser": "^6.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "mocha": "^6.2.0"
+  }
+}
