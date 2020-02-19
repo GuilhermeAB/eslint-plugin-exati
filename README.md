@@ -36,7 +36,8 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "exati/rule-name": 2
+        "exati/rule-name": 2,
+        "exati/valid-underscore": ["error", { "allowAfterThis": true, "allowParent": ["vm"] }]
     }
 }
 ```
@@ -44,7 +45,7 @@ Then configure the rules you want to use under the rules section.
 ## Supported Rules
 
 * exati/valid-translate-key
-
+* exati/valid-underscore
 
 
 
